@@ -61,9 +61,6 @@ $(function () {
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Estadisticas
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Consultar</a>
-        </div>
       </li>
 
 	  <li class="nav-item dropdown">
@@ -74,5 +71,23 @@ $(function () {
     </ul>
     </div>      
 </nav>
-</div>
+<br><div class="row mt-3">
+            <div class="col-lg-4"></div>
+				<div class="col-lg-4 text-center">
+					<div class="form-group">
+						<div class="input-group">
+							<div class="input-group-prepend">
+								<label class="input-group-text">Edition</label>
+							</div>
+							<select class="custom-select" id="edition">
+								<option value="-1">Select edition</option>
+								<option value="3">2020</option>
+								<option value="2">2019</option>
+								<option value="1">2018</option>
+							</select>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
